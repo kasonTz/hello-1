@@ -26,6 +26,7 @@ public class HomeController {
 	 */
 	@GetMapping("/kai")
 	public String update() {
+		System.out.println("ooooooo");
 		return "kai";
 	}
 
