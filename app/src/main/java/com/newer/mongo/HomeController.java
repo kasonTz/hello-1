@@ -19,5 +19,14 @@ public class HomeController {
 	public String home() {
 		return "home";
 	}
+	
+	/**
+	 * 
+	 * tzk
+	 */
+	@GetMapping("/kai")
+	public String update() {
+		return "kai";
+	}
 
 }
